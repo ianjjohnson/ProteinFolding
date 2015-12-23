@@ -1,0 +1,45 @@
++-Please record all changes made so we know what has been done and with what conventions. (And how about a name?)
+
+
+
+Added initial preset structure for Amino Acids - Ian
+
+Added basic 3D rendering using Java3D- INSTALL THE CORRECT FILE FOR YOUR OS FROM HERE:
+ http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html#java3d-1.5.1-oth-JPR -Tyler
+
+Linked up to 3D library and familiarized myself with the code structure for Renderer... seems cool. - Ian
+
+Revamped the 3D rendering system- system renders spheres of any color with any position and any radius. The system also alows the "camera" to be changed:
+you can zoom in, zoom out, and "pan" left, right, up and down. -Tyler
+
+More changes to the rendering system- from the driver you can now add atoms to be rendered. 
+Each atom has a different color and the Van Der Waals radii are used -Tyler
+
+IMPORTANT- Changed the way dropbox sharing works so we can all use our native libraries- now we should just link this source folder
+ to a project stored in a different location -Tyler
+
+Added (Buggy) feature that allows the "camera" to be rotated (Note, currently the rotation rotates the camera. Perhaps a better
+method would be to rotate the entire universe?)-Tyler
+
+Changed rotation to rotate universe- now panning and zooming works even when at odd angles -Tyler
+
+Started a covalent bond, and started a vector class. More details to follow. -Avi, Tyler 2/6/14, 4:21 pm. 
+Finished the covalent bond class. Left vector class to Tyler to do what he needs with it. -Avi, 2/7/14. 9:41 am.
+
+Started mouse-dragging for rotation (not entirely complete) - Ian and Tyler 2/7/12 9:57:12AM
+
+Added Variables for viewing distance - Ian, 2/7/14 6:29PM
+
+Added rotation around the camera using OrbitBehavior, removed old rotation implementation - Ian, 2/7/14 6:47PM
+
+Added moving forward/backward with mouse scrolling - Ian, 2/7/14 7:09PM
+
+Started a Matrix Class. Did not finish. -Avi 2/14/14 9:56
+Finished the Matrix class. -In class 2/20/14 9:52
+Added rotation matrices. -Avi 2/24/14
+
+Found this really great website with atom coordinates for Amino Acids! -Avi
+http://chemistry.gsu.edu/Glactone/PDB/Amino_Acids/aa.html
+
+Added file writing (teehee) and toStrings for atom and point
+-Ian 2/27/2014 7:22PM
